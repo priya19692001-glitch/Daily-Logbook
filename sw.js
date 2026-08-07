@@ -1,6 +1,4 @@
-/* Simple offline cache: the app shell loads even with no internet.
-   Bump CACHE version if you ever deploy an updated build. */
-const CACHE = "daily-logbook-v1";
+const CACHE = "daily-logbook-v3";
 const ASSETS = ["./", "./index.html", "./app.js", "./manifest.json", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 
 self.addEventListener("install", (e) => {
